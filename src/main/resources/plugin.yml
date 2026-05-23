@@ -1,0 +1,14 @@
+name: StarlightPetProtection
+description: $description
+version: '${version}'
+
+main: net.altias.starlightPetProtection.StarlightPetProtection
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ Altias ]
+
+commands:
+  setpetspawn:
+    description: Sets your pet spawn location
+    usage: /setpetspawn
